@@ -5,7 +5,6 @@ public class Arrays {
         //Read
         System.out.println(nums[0]);
 
-        //Search
 
     }
 }
