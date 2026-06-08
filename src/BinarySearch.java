@@ -1,4 +1,4 @@
-public class Demo {
+public class BinarySearch {
 
     public static void main(String[] args) {
         int nums[] = new int[1000];
