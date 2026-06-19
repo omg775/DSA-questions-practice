@@ -1,7 +1,7 @@
 public class BubbleSort {
     public static void main(String[] args) {
 
-        int nums[] = {6,5,2,8,9,4};
+        int nums[] = {7, 4, 3, 5, 8, 2};
         int size = nums.length;
         int temp = 0;
 
