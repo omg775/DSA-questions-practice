@@ -37,11 +37,22 @@ public class MergeSort {
                 arr[k] = rArr[j];
                 j++;
             }
+            k++;
+        }
+        while(i<n1){
+            arr[k] = lArr[i];
+            i++;
+            k++;
+        }
+        while(j<n2){
+            arr[k] = rArr[j];
+            j++;
+            k++;
         }
     }
 
     public static void main(String[] args) {
-        int arr[] = {3,5,1,4,6,2};
+        int arr[] = {8,5,9,1,6,7};
         for(int n: arr){
             System.out.print(n+" ");
         }
